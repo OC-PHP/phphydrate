@@ -1,0 +1,11 @@
+{
+    "name": "psa/phphydrate",
+    "description": "Example of indration",
+    "authors": [
+        {
+            "name": "Pierre-Sylvain AUGEREAU",
+            "email": "ps.augereau@irium-software.com"
+        }
+    ],
+    "require": {}
+}
