@@ -1,8 +1,9 @@
 <?php
 
-use App\Controller\HydrateController;
+use App\Controller\UserController;
+
 error_reporting(E_ALL);
 require __DIR__ . '/../vendor/autoload.php';
 
-$app = new HydrateController();
+$app = new UserController();
 $app->index();
