@@ -1,6 +1,6 @@
 {
     "name": "psa/phphydrate",
-    "description": "Example of indration",
+    "description": "Example of hydrate function",
     "authors": [
         {
             "name": "Pierre-Sylvain AUGEREAU",
@@ -13,5 +13,10 @@
             "App\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "twig/twig": "^3.3"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
 }
