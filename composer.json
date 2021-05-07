@@ -7,5 +7,11 @@
             "email": "ps.augereau@irium-software.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "src/"
+        }
+    },
     "require": {}
 }
